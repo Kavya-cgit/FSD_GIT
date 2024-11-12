@@ -1,9 +1,15 @@
-import React from 'react'
+import './App.css'
 
-const App = () => {
+const App = ({namee,email,mob}) => {
   return (
-    <div>Kavya Chaudhary</div>
+    <div id="disp">
+      <h1>Student Details</h1>
+      <h2>Name:{namee}</h2>
+      <h2>Email ID: {email}</h2>
+      <h2>Mobile No.: {mob}</h2>
+    </div>
+
   )
 }
 
-export default App
+export default App;
