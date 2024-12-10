@@ -1,0 +1,18 @@
+.movie-list{
+    background-color: rgb(188, 107, 107);
+    color:white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.movie-card{
+    width: 25%;
+    height: 600px;
+    border: 10px solid white;
+    margin: 20px;
+}
+.movie-img{
+    width: 80%;
+    padding: 20px;
+    height: 300px;
+}
